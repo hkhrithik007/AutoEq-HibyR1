@@ -61,12 +61,6 @@ The repository contains the complete set of Lua plugins developed for the HiBy R
 .
 ├── .plugins/
 │   ├── AutoEq.lua
-│   ├── GainMode.lua
-│   ├── LastFmScrobbler.lua
-│   ├── LockScreen.lua
-│   ├── PlayThrough.lua
-│   ├── SoundProfiles.lua
-│   └── Themes.lua
 ├── README.md
 └── LICENSE
 ```
@@ -76,12 +70,6 @@ The repository contains the complete set of Lua plugins developed for the HiBy R
 | File | Purpose |
 |---|---|
 | `AutoEq.lua` | AutoEq IEM profile search, download, native 10-band PEQ application, caching, saved-config management, and persistent current configuration. |
-| `GainMode.lua` | Gain-mode control for switching between the available playback gain settings. |
-| `LastFmScrobbler.lua` | Last.fm scrobbling with persistent offline queue support so tracks can be uploaded when connectivity returns. |
-| `LockScreen.lua` | Custom lock-screen behavior and album-art/clock presentation. |
-| `PlayThrough.lua` | Automatic playback continuation between albums/folders when a track or album finishes. |
-| `SoundProfiles.lua` | Native EQ profile switcher using the R1's built-in 10-band PEQ engine. |
-| `Themes.lua` | Custom theme selection and visual customization for the player UI. |
 
 All plugin files are intended to live directly under `SD/.plugins/`. The plugin manager discovers Lua plugins from this directory.
 
@@ -91,12 +79,6 @@ All plugin files are intended to live directly under `SD/.plugins/`. The plugin 
 SD/
 ├── .plugins/
 │   ├── AutoEq.lua
-│   ├── GainMode.lua
-│   ├── LastFmScrobbler.lua
-│   ├── LockScreen.lua
-│   ├── PlayThrough.lua
-│   ├── SoundProfiles.lua
-│   └── Themes.lua
 │
 └── AutoEq/
     ├── INDEX.md
